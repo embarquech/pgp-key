@@ -14,7 +14,7 @@ https://keys.openpgp.org/vks/v1/by-fingerprint/BA0657F51DB4D6F523EEE322C87F38B42
 
 Files:
 - pubkey.asc : my public key in ASCII format
-- fingerprint.txt : my fingerprint (optional)
+- fingerprint.txt : my fingerprint
 
 How to import my key:
 
@@ -40,3 +40,4 @@ Encrypt a message for me:
 ```
 gpg --encrypt --armor -r contact@embarque.ch message.txt
 ```
+
